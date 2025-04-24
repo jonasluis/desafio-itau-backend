@@ -7,7 +7,6 @@ import java.time.OffsetDateTime;
 
 public record TransactionRequest(
         @NotNull
-        @Min(0)
         Double valor,
         @NotNull
         OffsetDateTime dataHora) {

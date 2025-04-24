@@ -9,7 +9,7 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
 @Service
-public class TansactionService {
+public class TransactionService {
 
     private  final Queue<Transaction> transactions = new ConcurrentLinkedDeque<>();
 
